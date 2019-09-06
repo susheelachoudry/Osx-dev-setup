@@ -31,13 +31,13 @@ echo ###########################################################################
 
 
 echo ##################################################################################
-echo "Installing node via nvm"
+# "Installing node via nvm"
 nvm install node
 echo ##################################################################################
 
 
 echo ##################################################################################
-echo "which node version we have"
+# "which node version we have"
 which node
 # if you want some other version please use nvm use versionWhichYouWant,,,,,,  if it is not available in your system, install it by using nvm install node versionWhichYouWant.
 echo ##################################################################################
@@ -65,7 +65,7 @@ echo ###########################################################################
 
 
 echo ##################################################################################
-echo "Installing vscode"
+# "Installing vscode"
 IS_VISUAL_STUDIO_AVAILABLE=brew cask list | grep 'visual-studio-code'
 [[ ! -z "$IS_VISUAL_STUDIO_AVAILABLE"]] && brew cask install visual-studio-code
 echo ##################################################################################
