@@ -1,4 +1,4 @@
-# One-Go
+# Osx-dev-setup
 To Install all the necessary packages in one go. 
 
 
