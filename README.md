@@ -2,7 +2,7 @@
 To Install all the necessary packages in one go. 
 
 
-This script will install few packages automatically. 
+This script will install few packages automatically.
 Download the file
 open terminal, Go to the path
 run sh scripts.sh
